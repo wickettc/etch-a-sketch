@@ -1,0 +1,68 @@
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+body {
+    background: #35373a;
+}
+
+.grid {
+    background: gray;
+    border: none;
+}
+
+#container {
+    width: 600px;
+    height: 500px;
+    display: grid;
+    margin: 35px auto;
+    border: 5px solid black;
+}
+
+@media (max-width: 670px) {
+    #container {
+        width: 400px;
+        height: 300px;
+        display: grid;
+        margin: 35px auto;
+        border: 5px solid black;
+    }
+}
+
+@media (min-width: 671px) and (max-width: 800px) {
+    #container {
+        width: 500px;
+        height: 400px;
+        display: grid;
+        margin: 35px auto;
+        border: 5px solid black;
+    }
+}
+
+#buttonBar {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    width: 350px;
+    margin: auto;
+}
+
+button {
+    border-radius: 50%;
+}
+
+#reset {
+    padding: 5px 10px;
+}
+
+#black {
+    padding: 5px 10px;
+}
+
+#white {
+    padding: 5px 10px;
+}
+
